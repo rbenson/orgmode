@@ -29,9 +29,9 @@
 			<key>name</key>
 			<string>orgmode.headline</string>
 			<key>match</key>
-			<string>^\s*[*]+ [^\[\]:\n]*</string>
+			<string>^\s{0,}\*+.*\*</string>
 		</dict>
-				<dict>
+		<dict>
 			<key>name</key>
 			<string>orgmode.deadline</string>
 			<key>match</key>
